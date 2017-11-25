@@ -1,0 +1,87 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Nov 23 10:26:14 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0001b6
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0000de      
+                            0x002007    0x002008      
+            224 out of 8455 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    PISO1   0x000033    program     static D:\Ascensor2\main.asm    
+                    PISO2   0x00004a    program     static D:\Ascensor2\main.asm    
+                    PISO3   0x00005a    program     static D:\Ascensor2\main.asm    
+             _.org_1_00D9   0x0000d9    program     static D:\Ascensor2\main.asm    
+             _.org_1_00DB   0x0000db    program     static D:\Ascensor2\main.asm    
+             _.org_1_00DD   0x0000dd    program     static D:\Ascensor2\main.asm    
+                  _bajar1   0x000077    program     static D:\Ascensor2\main.asm    
+                 _bajar12   0x000088    program     static D:\Ascensor2\main.asm    
+                  _bajar2   0x000097    program     static D:\Ascensor2\main.asm    
+                   _bucle   0x000025    program     static D:\Ascensor2\main.asm    
+                   _mayor   0x000043    program     static D:\Ascensor2\main.asm    
+                   _menor   0x000045    program     static D:\Ascensor2\main.asm    
+                     _pp1   0x00003a    program     static D:\Ascensor2\main.asm    
+                     _pp2   0x000051    program     static D:\Ascensor2\main.asm    
+                     _pp3   0x000061    program     static D:\Ascensor2\main.asm    
+                  _subir1   0x0000a6    program     static D:\Ascensor2\main.asm    
+                 _subir12   0x0000b5    program     static D:\Ascensor2\main.asm    
+                  _subir2   0x0000c2    program     static D:\Ascensor2\main.asm    
+                    bajar   0x000071    program     static D:\Ascensor2\main.asm    
+                    bucle   0x000024    program     static D:\Ascensor2\main.asm    
+                   inicio   0x000009    program     static D:\Ascensor2\main.asm    
+                mismopiso   0x00006a    program     static D:\Ascensor2\main.asm    
+                    mover   0x00006e    program     static D:\Ascensor2\main.asm    
+                  retardo   0x0000d1    program     static D:\Ascensor2\main.asm    
+                      rsi   0x00002c    program     static D:\Ascensor2\main.asm    
+                    subir   0x000074    program     static D:\Ascensor2\main.asm    
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x000009    program     static D:\Ascensor2\main.asm    
+                    bucle   0x000024    program     static D:\Ascensor2\main.asm    
+                   _bucle   0x000025    program     static D:\Ascensor2\main.asm    
+                      rsi   0x00002c    program     static D:\Ascensor2\main.asm    
+                    PISO1   0x000033    program     static D:\Ascensor2\main.asm    
+                     _pp1   0x00003a    program     static D:\Ascensor2\main.asm    
+                   _mayor   0x000043    program     static D:\Ascensor2\main.asm    
+                   _menor   0x000045    program     static D:\Ascensor2\main.asm    
+                    PISO2   0x00004a    program     static D:\Ascensor2\main.asm    
+                     _pp2   0x000051    program     static D:\Ascensor2\main.asm    
+                    PISO3   0x00005a    program     static D:\Ascensor2\main.asm    
+                     _pp3   0x000061    program     static D:\Ascensor2\main.asm    
+                mismopiso   0x00006a    program     static D:\Ascensor2\main.asm    
+                    mover   0x00006e    program     static D:\Ascensor2\main.asm    
+                    bajar   0x000071    program     static D:\Ascensor2\main.asm    
+                    subir   0x000074    program     static D:\Ascensor2\main.asm    
+                  _bajar1   0x000077    program     static D:\Ascensor2\main.asm    
+                 _bajar12   0x000088    program     static D:\Ascensor2\main.asm    
+                  _bajar2   0x000097    program     static D:\Ascensor2\main.asm    
+                  _subir1   0x0000a6    program     static D:\Ascensor2\main.asm    
+                 _subir12   0x0000b5    program     static D:\Ascensor2\main.asm    
+                  _subir2   0x0000c2    program     static D:\Ascensor2\main.asm    
+                  retardo   0x0000d1    program     static D:\Ascensor2\main.asm    
+             _.org_1_00D9   0x0000d9    program     static D:\Ascensor2\main.asm    
+             _.org_1_00DB   0x0000db    program     static D:\Ascensor2\main.asm    
+             _.org_1_00DD   0x0000dd    program     static D:\Ascensor2\main.asm    
+
+
